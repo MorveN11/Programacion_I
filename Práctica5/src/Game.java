@@ -4,7 +4,7 @@ public class Game {
 
         final String[] ranks = { "C", "B", "A", "S", "SS" };
 
-        final double time = 1;
+        final double time = 123;
 
         final double MIN_TIME = 0;
 
