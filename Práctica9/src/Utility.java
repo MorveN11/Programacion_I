@@ -22,6 +22,10 @@ public class Utility {
             }
             repeated = 0;
         }
+        if (mostRepeated == 1) {
+            mostRepeatedWord[0] = "Ninguna palabra se repite";
+            mostRepeatedWord[1] = "-";
+        }
         return mostRepeatedWord;
     }
 
